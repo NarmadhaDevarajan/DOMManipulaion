@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipultion</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    
+        <form id="formId" class="form">
+            
+    <div class="container">
+       <table border="2px" id="list">
+    <thead>
+        <tr>
+            <td>FirstName</td>
+            <td>LastName</td>
+            <td>Address</td>
+            <td>Pincode</td>
+            <td>Gender</td>
+            <td>Food</td>
+            <td>State</td>
+            <td>Country</td>
+        </tr>
+    </thead>
+        <tbody>
+        </tbody>
+        
+       </table>
+    </div>
+    <div class="container2">
+        <label name="firstname">First name : </label>
+        <input type="text" for="firstname" id="fname"><br>
+        <label name="lastname">Last name : </label>
+        <input type="text" for="lastname" id="lname"><br>
+        <label name="address1" >Address: </label>
+        <input type="text" for="address1" id="address"><br>
+        <label name="picode">Pincode : </label>
+        <input type="text" for="pincode" id="pcode"><br>
+        <label name="genders">Gender : </label>
+        <input type="text" for="genders" id="gender"><br>
+        <label name="foods">Choice of Food: </label>
+        <input type="text" for="foods" id="food"><br>
+        <label name="states">State : </label>
+        <input type="text" for="states" id="state"><br>
+        <label name="countries">Country : </label>
+        <input type="text" for="countries" id="country"><br>
+        
+</div>
+<button type="button" id="buttonId" onclick="getData(event)">Submit</button>
+    <script src="./sript.js">     </script>
+</form>
+</body>
+</html>
